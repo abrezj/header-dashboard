@@ -1,0 +1,83 @@
+.row {
+  width: 89%;
+  border: 1px solid black;
+  margin-left: 8.45%;
+  margin-right: 2.5%;
+  height: 57px;
+}
+
+.row .textCol {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.textCol .subrow {
+  border: none;
+  height: 25px;
+  margin: 0%;
+}
+
+#subHeading {
+  font-size: 0.7em;
+  margin-top: 0.9em;
+  text-transform: uppercase;
+}
+
+#Heading {
+  font-size: 1em;
+  align-items: flex-start;
+}
+
+.row .searchCol,
+.row .col {
+  height: 57px;
+}
+
+.searchCol .input-group {
+  height: 57px;
+  display: flex;
+  margin-top: 5%;
+}
+
+.form-outline {
+  height: 57px;
+}
+
+.form-control {
+  height: 1.9em;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 0.5px solid #cacaca;
+  border-right: none;
+}
+
+.searchBtn {
+  height: 1.9em;
+  padding-top: 0.5%;
+  border: 0.5px solid #cacaca;
+  border-left: none;
+}
+
+.toolBtn {
+  font-size: 0.7em;
+  margin-top: 7%;
+  float: right;
+}
+
+.btnCol {
+  position: relative;
+  width: 400px;
+}
+
+.menuCol {
+  position: relative;
+}
+
+// .border {
+//   position: absolute;
+//   border-left: 2px solid red;
+//   height: 2em;
+//   top: 10%;
+//   bottom: 3%;
+// }

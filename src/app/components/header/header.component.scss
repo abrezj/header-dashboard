@@ -1,0 +1,40 @@
+.row {
+  border: 1px solid black;
+  width: 95%;
+  margin-top: 1em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height: 57px;
+}
+
+.row .box {
+  height: 57px;
+  width: 72px;
+  border: 1px solid black;
+}
+
+.row .textCol {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.textCol .subrow {
+  border: none;
+  height: 25px;
+  margin: 0%;
+}
+
+.subrow .headings {
+  text-transform: uppercase;
+}
+
+#subHeading {
+  font-size: 0.7em;
+  margin-top: 0.9em;
+}
+
+#Heading {
+  font-size: 1em;
+  align-items: flex-start;
+}
